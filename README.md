@@ -20,5 +20,6 @@ Also have touch screen capabilities. Hopefully can create a menu to choose pente
 
 
 
+I've had this idea for awhile but the code from the Rogue Pi project helped get me started.
 
 http://crushbeercrushcode.org/2013/03/developing-the-rogue-pi/
