@@ -3,6 +3,8 @@ roguepi_tft
 
 This is a set of python files to to use an Adafruit PiTFT - 2.8" Touchscreen Display for Raspberry Pi to create a pen testing drop box
 
+http://imgur.com/VuqNL80
+
 I've created a python script that will fill a sceen with 
 IP Address
 Default Gateway (Success / Failure Ping)
@@ -17,6 +19,22 @@ Screen on/off?
 Power pi on/off?
 
 Also have touch screen capabilities. Hopefully can create a menu to choose pentesting tools and launch via on screen menu and buttons.
+
+
+
+Moving forward: 
+Things to add..
+• Better looking tsatus Report of the Rogue Pi: IP, Tunnel Up or Down, Gateway, Internet Connectiviy,
+
+• nmap portscan (you’d need to a script which could gather a bit of info about the network and pass that info into the nmap arguments but shouldn’t be hard.) Have the screen show a progress bar so you can determine how long that scan is going to take and then dump the contents into a file and print the location on the screen
+
+• Enable / Disable Wireless Adapter
+
+• Airmon-ng: Assuming you have a network adapter perform a quick scan of the airwaves and print out a scrollable list of nearby APs (SSID, single strength, encryption Type, BSSID)
+
+• Tunneling Options
+
+• Self-destruct mode
 
 
 
