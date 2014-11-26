@@ -192,7 +192,7 @@ make_text(get_ip_address(ham),40,160,green)
 make_button("Number of Hosts on Network:", 20, 180, white)
 make_stext(number_hosts(),20,210,blue)
 
-make_text("RoguePi_,200,10,red)
+make_text("RoguePi_",200,10,red)
 pygame.display.update()
 
 
