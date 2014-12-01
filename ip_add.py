@@ -19,15 +19,11 @@ import sys, pygame
 import time
 import os
 
-
-os.environ["SDL_FBDEV"] = "/dev/fb1"
-os.environ["SDL_MOUSEDEV"] = "/dev/input/touchscreen"
-os.environ["SDL_MOUSEDRV"] = "TSLIB"
-pygame.init()
-
 #define network interface
 iface = 'eth0'
 ham = 'ham0'
+
+# Functions being defined for later ------------------------------------------
 
 # Function which gets the Default IP address
 def get_ip_address(ifname):
@@ -138,12 +134,20 @@ def number_hosts():
         line
     return line
 
+#Initialization -----------------------------------------------------------
 
+os.environ["SDL_FBDEV"] = "/dev/fb1"
+os.environ["SDL_MOUSEDEV"] = "/dev/input/touchscreen"
+os.environ["SDL_MOUSEDRV"] = "TSLIB"
 
+print " Initializing..."
+pygame.init()
 
+print "Setting Mouse invisible..."
+pygame.mouse.set_visible(False)
 
 #set size of screen
-size = width, height = 320, 240
+
 
 #define colours
 blue = 26, 0, 255
@@ -153,6 +157,8 @@ white = 255, 255, 255
 green = 127, 255, 0
 red = 255,0 ,0
 
+Print "Setting display size..."
+size = width, height = 320, 240
 screen = pygame.display.set_mode(size)
 
 #welcome screen
