@@ -18,11 +18,8 @@ Secure Tunnel Conenction # Using log-me-in hamachi at the moment but may switch 
 Number of Hosts on network #In the works (Nmap on boot output host number to file?)
 
 
-I want to add a Python script on boot to enable PiTFT buttons to do the following
-
-Launch ip_add.py
-
-Launch NMAP and display hosts?
+#I want to add a Python script on boot to enable PiTFT buttons to do the following
+Added script launcer.sh to cd into directory and launch buttons.py
 
 Screen on/off?
 
