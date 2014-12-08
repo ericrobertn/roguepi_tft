@@ -3,8 +3,8 @@ roguepi_tft
 
 Put on hold due to 
 >  File "buttons.py", line 79, in <module>
-    screen = pygame.display.set_mode((640, 480))
-pygame.error: Unable to open mouse
+>    screen = pygame.display.set_mode((640, 480))
+>pygame.error: Unable to open mouse
 
 
 
