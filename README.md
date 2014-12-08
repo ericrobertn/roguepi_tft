@@ -1,6 +1,13 @@
 roguepi_tft
 ===========
 
+Put on hold due to 
+>  File "buttons.py", line 79, in <module>
+    screen = pygame.display.set_mode((640, 480))
+pygame.error: Unable to open mouse
+
+
+
 This is a set of python files to to use an Adafruit PiTFT - 2.8" Touchscreen Display for Raspberry Pi to create a pen testing drop box
 
 http://imgur.com/VuqNL80
